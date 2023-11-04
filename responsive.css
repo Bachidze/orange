@@ -1,0 +1,95 @@
+
+@media(width > 667px){
+    .brgr-div,.brgr{
+        display: none;
+    }
+
+    .links{
+        display: flex;
+    }
+}
+
+@media(width > 768px){
+    p{
+        width: 360px;
+        margin: 0 auto;
+    }
+
+    .border{
+        width: 23%;
+    }
+
+    .border-2{
+        width: 23%;
+    }
+    .image-2{
+        padding-bottom: 100px;
+    }
+}
+
+@media (width > 1440px){
+    .grid{
+        display: grid;
+        grid-template-areas: "meore pirveli"
+                             "mesame meotxe"
+                             "mexute meeqvse"
+                             "meshvide merve";
+                             align-items: center;
+    }
+
+    .image11{
+        grid-area: pirveli;
+    }
+
+    .txt11{
+        grid-area: meore;
+    }
+
+    .image22{
+        grid-area: mesame;
+    }
+
+    .txt22{
+        grid-area: meotxe;
+    }
+
+    .image33{
+        grid-area: mexute;
+    }
+
+    .txt33{
+        grid-area: meeqvse;
+    }
+
+    .imae44{
+        grid-area: meshvide;
+    }
+
+    .txt44{
+        grid-area: merve;
+    }
+
+    p{
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .flex{
+        display: flex;
+        gap: 25px;
+    }
+
+    .grid-2{
+        display: flex;
+        gap: 50px;
+    }
+}
+
+@media(width < 768px){
+    .image11{
+        margin-top: -149.5px;
+    }
+}
+
+
+
